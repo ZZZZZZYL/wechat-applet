@@ -1,0 +1,19 @@
+<view>
+ <view class='row'>
+    <view>{{item.address}}</view>
+  </view>
+
+  <view class='row'>   
+
+   <view> {{item.type==="sell"?"转让":"求购"}}</view>
+  </view>
+
+  <view class='row'>
+    <view>{{item.message}}</view>
+  </view>
+  
+  <view class='row'>
+    <view>{{item.contact}}</view>
+  </view>
+</view>
+

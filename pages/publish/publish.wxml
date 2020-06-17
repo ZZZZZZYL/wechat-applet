@@ -1,0 +1,35 @@
+<view wx:if="{{!flag}}"> 
+  <view class='row'>
+    <label>我的地址</label>
+    <view bindtap='choose'>{{msg}}</view>
+  </view>
+
+  <view class='row'>
+    <label>类型</label>
+    <radio-group class="radio-group" bindchange="radioChange">    
+    <radio value="buy" checked="{{item.checked}}" />求购
+    <radio value="sell" checked="{{item.checked}}" checked='true'/>转让  
+    </radio-group>
+  </view>
+
+  <view class='row'>
+    <label>说明</label>
+    <input placeholder='填写您的具体需求' bindinput='inputmessage'/>
+  </view>
+  
+  <view class='row'>
+    <label>联系方式</label>
+    <input placeholder='填写您的联系方式' bindinput='inputcontact'/>
+  </view>
+  <button class='btn' bindtap='submit'>发布信息</button>
+
+</view>
+
+<view wx:if="{{flag}}">
+   
+	<view><icon type="success" size="24"></icon>操作成功</view>
+   
+	<button bindtap='goback' class='btn'>返回</button>
+
+</view>
+

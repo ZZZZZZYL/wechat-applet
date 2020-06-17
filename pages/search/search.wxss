@@ -1,0 +1,29 @@
+.box{
+  background: #eee;
+}
+.search{
+  background: #00bbd5;
+  display: flex;
+}
+
+.search input{
+  width: 80%;
+  background: #fff;
+  margin-top: 10rpx;
+  margin-left: 10rpx;
+  border-radius: 20rpx;
+}
+.search button{
+  font-size: 12px;
+  background: none;
+  color: #fff;
+}
+.content{
+  height: 200rpx;
+  background: #fff;
+  margin-bottom: 20rpx;
+  padding: 30rpx 20rpx 0
+}
+.content .address{
+  color: orange;
+}

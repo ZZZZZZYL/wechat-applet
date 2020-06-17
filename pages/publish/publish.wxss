@@ -1,0 +1,14 @@
+.row{
+  display: flex;
+  line-height: 130rpx;
+  border-bottom: 1px solid #ccc;
+}
+.row label{
+  width: 240rpx;
+  text-align: center;
+}
+.btn{
+  background: #ff9700;
+  color: #fff;
+  margin: 20rpx 20rpx;
+}

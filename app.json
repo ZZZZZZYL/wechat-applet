@@ -1,0 +1,16 @@
+{
+  "pages": [
+
+    "pages/index/index",
+    "pages/publish/publish",
+      "pages/search/search",
+        "pages/detail/detail",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#03bbd5",
+    "navigationBarTitleText": "萌宠交易平台",
+    "navigationBarTextStyle": "#fff"
+  }
+}
